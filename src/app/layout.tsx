@@ -21,6 +21,10 @@ export const metadata: Metadata = {
   description:
     "FreeWater® is a revolutionary advertising platform that gives away premium spring water for free – paid for by the ads on the packaging. Ten cents per beverage is donated to fight the global water crisis.",
   keywords: "free water, advertising, sustainability, water charity, aluminum bottle",
+  icons: {
+    icon: "/images/logo.webp",
+    apple: "/images/logo.webp",
+  },
 };
 
 export default function RootLayout({
