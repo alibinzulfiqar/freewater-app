@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import Dev2ProductionBadge from "@/components/Dev2ProductionBadge";
 
 export default function DistributePage() {
   const [formData, setFormData] = useState({
@@ -135,6 +136,7 @@ export default function DistributePage() {
               <p className="text-sky-200">
                 We&apos;ll review your application and get back to you within 48 hours.
               </p>
+              <Dev2ProductionBadge variant="dark" />
             </div>
           ) : (
             <form

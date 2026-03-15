@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import Dev2ProductionBadge from "@/components/Dev2ProductionBadge";
 
 const adStats = [
   {
@@ -277,6 +278,7 @@ export default function AdvertisePage() {
               <div className="text-5xl mb-4">🎉</div>
               <h3 className="text-white text-2xl font-bold mb-2">Quote request received!</h3>
               <p className="text-sky-200">Our team will contact you within 24 hours.</p>
+              <Dev2ProductionBadge variant="dark" />
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="rounded-3xl p-8 space-y-4" style={{ background: "rgba(255,255,255,0.15)", backdropFilter: "blur(12px)", border: "1px solid rgba(255,255,255,0.3)" }}>

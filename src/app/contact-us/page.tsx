@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import Dev2ProductionBadge from "@/components/Dev2ProductionBadge";
 
 const subjectOptions = [
   "General Inquiry",
@@ -115,6 +116,7 @@ export default function ContactPage() {
                   <p className="text-slate-500">
                     Our team will get back to you as soon as possible.
                   </p>
+                  <Dev2ProductionBadge variant="light" />
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-5">

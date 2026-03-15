@@ -127,6 +127,28 @@ export default function Footer() {
           <p>© 2025 Copyright FreeWater® All Rights Reserved</p>
           <p className="text-sky-500 font-medium">Water that gives back 💧</p>
         </div>
+        <div className="mt-6 pt-4 border-t border-slate-800/50 flex justify-center">
+          <a
+            href="https://dev2production.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 group"
+            aria-label="Developed by Dev2Production"
+          >
+            <span className="text-slate-600 text-xs tracking-widest uppercase">Developed by</span>
+            <span className="flex items-center gap-2 px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800/50 group-hover:border-amber-800/50 group-hover:bg-amber-950/20 transition-all duration-300">
+              <svg width="20" height="20" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 6l2.5 3.5 4-1 1.5 4 4 .5-.5 4 3.5 2.5-2 3.5 2 3.5-3.5 2.5.5 4-4 .5-1.5 4-4-1L24 42l-2.5-3.5-4 1-1.5-4-4-.5.5-4L9 29l2-3.5-2-3.5 3.5-2.5-.5-4 4-.5 1.5-4 4 1z" fill="#92400e" />
+                <circle cx="24" cy="24" r="8" fill="#1c0a00" />
+                <circle cx="24" cy="24" r="3" fill="#f59e0b" />
+              </svg>
+              <span className="flex items-baseline gap-1">
+                <span className="text-amber-500 font-black text-sm tracking-tight">DEV2</span>
+                <span className="text-amber-800 font-semibold text-[10px] tracking-widest uppercase">Production</span>
+              </span>
+            </span>
+          </a>
+        </div>
       </div>
     </footer>
   );
